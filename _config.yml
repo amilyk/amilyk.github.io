@@ -5,8 +5,8 @@ header-img: img/logo.gif
 email: xunkangzju@gmail.com
 description: "关于数据科学| 康珣，R & MachineLearning Lover | 这里是 @xunkang康珣 的个人博客，与你一起成长。"
 keyword: "康珣, 博客, R, 机器学习, 可视化, 分布式, 统计学, python"
-url: "https://amilyk.github.io"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+url: "http://amilyk.github.io"              # your host, for absolute URL
+baseurl:                              # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
@@ -27,7 +27,7 @@ highlighter: rouge
 permalink: pretty
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+anchorjs: no                    # if you want to customize anchor. check out line:181 of `post.html`
 
 
 
@@ -43,15 +43,17 @@ gems: [jekyll-paginate]
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+  input: GFM
 
+                          # use Github Flavored Markdown !important
+#markdown: redcarpet
 
 
 # Disqus settings
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-duoshuo_username: huxblog
+duoshuo_username: XunKangblog
 # Share component is depend on Comment so we can NOT use share only.
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 

@@ -1,0 +1,45 @@
+---
+layout:     post
+title:      "[R包]以rmarkdown为例"
+date:       2017-02-10 11:00:00
+author:     "XunKang"
+header-img: "img/post-bg-js-version.jpg"
+tags:
+    - R
+---
+
+
+>包安装有多种方法，分为网速不好和网速好两种方法。
+
+### 以rmarkdown安装为例
+
+### 网速好
+
++ 若该E包在cran上有，可直接用install安装。
+
++ 若cran上找不到该R包，可用devtools工具使用github对应的R包的版本库安装。
+
++ 若cran上找不到该R包,在github上找到该R包的版本库，点击download zip，下载下来用Rstudio中tools->install packages安装
+
+
+### 网速不好
+
+以上的方式会因为**网速局限**，出现
+
++ 在线安装下载过慢停止
+
++ 本地安装包没下载完全
+
+>解决方案【**咨询老师后**】：（总体而言是利用git clone版本库，编译R包的方式安装，按步骤如下）
+
+step1. git clone  https://github.com/rstudio/rmarkdown.git    #使用git bash克隆版本库，下载zip不如git clone /studio/rmarkdown稳定
+
+step2. 在cran网站[https://mirrors.tuna.tsinghua.edu.cn/CRAN/bin/windows/Rtools]下载安装Rtools for windows，下一步傻瓜式安装，**注意**到了下图中步骤时，**current value**
+一定要选上，然后下一步即可安装成功。
+
+![rtools](/img/rtools.png)
+
+step3. 在Rstudio中安装依赖包htmltools
+
+step4. 下载后，点击根目录中rmarkdown.Rproj会自动打开Rstudio，先library(htmltools)，然后点击菜单栏中build->build and reload按钮，Rstudio会自动编译安装，安装成功后会自动导入rmarkdown。若是看到library(
+rmarkdown)，即成功安装，否则右上侧会显示error信息。
