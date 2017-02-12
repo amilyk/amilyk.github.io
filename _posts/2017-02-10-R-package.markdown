@@ -34,7 +34,7 @@ tags:
 
 step1. git clone  https://github.com/rstudio/rmarkdown.git    #使用git bash克隆版本库，下载zip不如git clone /studio/rmarkdown稳定
 
-step2. 在cran网站[https://mirrors.tuna.tsinghua.edu.cn/CRAN/bin/windows/Rtools]下载安装Rtools for windows，下一步傻瓜式安装，**注意**到了下图中步骤时，**current value**
+step2. 在cran网站 [Rtools for windows](https://mirrors.tuna.tsinghua.edu.cn/CRAN/bin/windows/Rtools)下载安装Rtools for windows，下一步傻瓜式安装，**注意**到了下图中步骤时，**current value**
 一定要选上，然后下一步即可安装成功。
 
 ![rtools](/img/rtools.png)
