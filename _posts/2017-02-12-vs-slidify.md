@@ -3,7 +3,7 @@ layout:     post
 title:      "[slidify]slidify的安装及使用"
 date:       2017-02-12
 author:     "xunkang"
-header-img: "img/post-bg-js-version.jpg"
+header-img: "img/post-bg-version.jpg"
 tags:
     - 可视化
 

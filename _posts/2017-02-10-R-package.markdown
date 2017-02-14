@@ -3,7 +3,7 @@ layout:     post
 title:      "[R包]以rmarkdown为例"
 date:       2017-02-10 11:00:00
 author:     "XunKang"
-header-img: "img/post-bg-js-version.jpg"
+header-img: "img/post-bg-version.jpg"
 tags:
     - R
 ---
