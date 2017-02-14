@@ -10,7 +10,7 @@ tags:
 ---
 
 
-> 续接 [python开发简单爬虫 (1)]()
+> 续接 [python开发简单爬虫 (1)](https://amilyk.github.io/2017/02/13/spider-easy1/)
 
 ### 6 网页下载器
 
