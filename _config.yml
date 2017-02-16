@@ -108,5 +108,11 @@ friends: [
     },{
         title: "谢益辉的博客",
         href: "http://cos.name/author/yihui/"
+    },{
+        title: "陈堰平的博客",
+        href: "http://yanping.me/cn/"
+    },{
+        title: "郎大为的博客",
+        href: "http://langdawei.com/"
     }
 ]

@@ -68,18 +68,18 @@ tags:
 
 + 麻烦：每次打开R都要重新运行一遍这个代码，因为R语言环境重新回到简体中文形式。
 
-​	方法2
+  ​方法2
 
 + 安装slidify中文优化包【亲测有效】
   {% highlight ruby %}
   install_github("lchiffon/slidify")
   {% endhighlight %}
 
-![rtools](/img/demo.png) 
+![rtools](/img/demo.png)
 
 ### 3 参考
 
-+ [雪晴数据网-slidify+rCharts+ECharts制作炫酷HTML5 之如何使用slidify](http://www.xueqing.tv/lesson/142)
++ [【雪晴数据网】 slidify+rCharts+ECharts制作炫酷HTML5-- 如何使用slidify](http://www.xueqing.tv/lesson/142)
 
 
 

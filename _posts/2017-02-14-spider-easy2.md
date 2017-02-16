@@ -192,5 +192,5 @@ print link1.name,link1['href'],link1.get_text()
 ### 参考
 
 
-[慕课网 python开发简单爬虫](http://www.imooc.com/learn/563)
+[【慕课网】 python开发简单爬虫](http://www.imooc.com/learn/563)
 
